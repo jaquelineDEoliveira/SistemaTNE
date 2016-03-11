@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "ImportarDados";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div style="height:800px;">
+    <h2>Importar Dados</h2>
+    <div>
+        <h3>Selecione o arquivo com os dados a serem importados</h3>
+            <label class="file">
+                <input type="file" id="file">
+                <span class="file-custom"></span>
+            </label>
+    </div>
+    <div>
+        <h3>Selecione o sistema de origem que gerou o arquivo</h3>
+        <select class="selectpicker">
+            <option>LBC Sistemas</option>
+            <option>Inforlub</option>
+        </select>
+    </div>
+    <button type="button" class="btn btn-default navbar-btn">Iniciar importação</button>
+</div>
+

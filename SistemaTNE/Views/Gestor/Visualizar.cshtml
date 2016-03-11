@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Visualizar";
+    Layout = "~/Views/Shared/_LayoutGestor.cshtml";
+}
+
+<div style="height:600px">
+    <div>
+        <fieldset class="form-group">
+            <label for="DataNascimento">Buscar cliente</label>
+            <input type="text" class="form-control" id="DataNascimento" placeholder="Digite o nome do cliente">
+        </fieldset>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Editar</button><span style="margin-right: 10px; color: transparent;">.</span><button type="submit" class="btn btn-primary">Mudar Estado</button>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Date de nascimento</th>
+                <th>Modelo do veículo</th>
+                <th>Placa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><label class="c-input c-radio">
+                 <input id="radio1" name="radio" type="radio">
+                 <span class="c-indicator"></span></label>
+                </th>
+                <td>Jóse Augusto da Silva</td>
+                <td>15/05/1970</td>
+                <td>BMW</td>
+                <td>HAA-9911</td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    <label class="c-input c-radio">
+                        <input id="radio1" name="radio" type="radio">
+                        <span class="c-indicator"></span>
+                    </label>
+                </th>
+                <td>Ana Maria das Graças</td>
+                <td>01/02/1975</td>
+                <td>Fiat Uno</td>
+                <td>HAI-9911</td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    <label class="c-input c-radio">
+                        <input id="radio1" name="radio" type="radio">
+                        <span class="c-indicator"></span>
+                    </label>
+                </th>
+                <td>Bruna Alcatras de Almeida</td>
+                <td>30/12/1989</td>
+                <td>Wolksvagem</td>
+                <td>UUI-9911</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

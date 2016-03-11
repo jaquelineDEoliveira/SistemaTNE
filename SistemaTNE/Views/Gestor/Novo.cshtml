@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Novo";
+    Layout = "~/Views/Shared/_LayoutGestor.cshtml";
+}
+
+<form>
+    <fieldset class="form-group">
+        <label for="Nome">Nome completo</label>
+        <input type="email" class="form-control" id="Nome" placeholder="Informe o nome completo">
+        <!--<small class="text-muted">We'll never share your email with anyone else.</small>-->
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="DataNascimento">Data de nascimento</label>
+        <input type="text" class="form-control" id="DataNascimento" placeholder="Use o formato dd/mm/aaaa">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="ModeloVeiculo">Modelo do veículo</label>
+        <input type="text" class="form-control" id="ModeloVeiculo" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Placa">Placa</label>
+        <input type="text" class="form-control" id="Placa" placeholder="XXX-0000">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Logradouro">Logradouro</label>
+        <input type="text" class="form-control" id="Logradouro" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Numero">Número</label>
+        <input type="text" class="form-control" id="Numero" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Complemento">Complemento</label>
+        <input type="text" class="form-control" id="Complemento" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Bairro">Bairro</label>
+        <input type="text" class="form-control" id="Bairro" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="Cidade">Cidade</label>
+        <input type="text" class="form-control" id="Cidade" placeholder="">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="UF">Estado</label>
+        <input type="text" class="form-control" id="UF" placeholder="">
+    </fieldset>
+    <div style="background: #808080; width: 300px; height: 200px;">
+        <p style="width: 100%; background: #dedede; padding: 5px;">Serviços utilizados</p>
+        <div style="padding: 10px;">
+            <div>
+                <select>
+                    <option>Lavagem</option>
+                    <option>Calibragem</option>
+                    <option>Troca de óleo</option>
+                </select>
+                <button>+</button>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Serviço 1</td>
+                        <td><button>-</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
