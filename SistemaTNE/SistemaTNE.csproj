@@ -175,6 +175,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DropTableModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -192,6 +193,7 @@
     <Content Include="Content\assets\js\scripts.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\bootstrap-select.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\sb-admin.css" />
     <Content Include="Content\Images\1%402x.jpg" />
@@ -277,6 +279,7 @@
     <Content Include="Content\bootstrap\bootstrap-reboot.scss" />
     <Content Include="Content\bootstrap\bootstrap-grid.scss" />
     <Content Include="Content\bootstrap\bootstrap-flex.scss" />
+    <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Fonts\fontawesome-webfont.ttf" />
@@ -322,6 +325,7 @@
     <Content Include="Views\Gestor\Visualizar.cshtml" />
     <Content Include="Views\Administrador\NovoUsuario.cshtml" />
     <Content Include="Views\Administrador\ImportarDados.cshtml" />
+    <Content Include="Views\Shared\DropTable.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
