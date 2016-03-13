@@ -66,3 +66,4 @@ D:\_Develop\Projetos\TCC\SistemaTNE\SistemaTNE\bin\Microsoft.Owin.Security.Twitt
 D:\_Develop\Projetos\TCC\SistemaTNE\SistemaTNE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\_Develop\Projetos\TCC\SistemaTNE\SistemaTNE\obj\Debug\SistemaTNE.dll
 D:\_Develop\Projetos\TCC\SistemaTNE\SistemaTNE\obj\Debug\SistemaTNE.pdb
+D:\_Develop\Projetos\TCC\SistemaTNE\SistemaTNE\obj\Debug\SistemaTNE.csprojResolveAssemblyReference.cache

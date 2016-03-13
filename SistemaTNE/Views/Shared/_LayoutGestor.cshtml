@@ -11,6 +11,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>@ViewBag.Title</title>
+
+    @if (IsSectionDefined("PartialSectionBefore"))
+    {
+        @RenderSection("PartialSectionBefore", required: false)
+    }
+
     <!-- Bootstrap Core CSS -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -23,13 +29,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-   
-   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>--> 
-
-
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
     <!-- jQuery -->
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -40,7 +42,6 @@
     {
         @RenderSection("PartialSection", required: false)
     }
-
 </head>
 <body>
     <div id="wrapper">
