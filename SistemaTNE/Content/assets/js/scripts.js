@@ -21,19 +21,29 @@ jQuery(document).ready(function() {
         
     	$(this).find('input[type="text"], input[type="password"], textarea').each(function(){
     		if( $(this).val() == "" ) {
-    			//e.preventDefault();
+    			e.preventDefault();
     			$(this).addClass('input-error');
     		}
     		else {
 
-    			$(this).removeClass('input-error');
+    		    $(this).removeClass('input-error');
+
+
+
+    		    //PROTOTIPO CODE ---- -------------------------------------
+    		    e.preventDefault();
+    		    var user = $('input[type = "text"]').val();
+
+    		    if (user === "Administrador")
+    		        window.location.replace("../Administrador/Index");
+    		    else if (user === "Gestor")
+    		        window.location.replace("../Gestor/Visualizar");
+    		    else
+    		        $(this).addClass('input-error');
+    		    //----------------------------------------------------------
 
     		}
-    	});
-    	
-        
-    	e.preventDefault();
-        window.location.replace("../Administrador/Index");
+    	});      
 
     });
     
