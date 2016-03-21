@@ -117,8 +117,17 @@
                             </li>
                         </ul>
                     </li>
+
                     <li>
-                        <a><i class="fa fa-fw fa-file"></i> BI</a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo1"><i class="fa fa-fw fa-arrows-v"></i> BI <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo1" class="collapse">
+                            <li>
+                                <a href="~/Gestor/BuscaAvancada">Busca Avançada</a>
+                            </li>
+                            <li>
+                                <a href="~/Gestor/Relatorio">Relatório</a>
+                            </li>
+                        </ul>
                     </li>
 
                 </ul>
@@ -131,6 +140,11 @@
         <!-- /#page-wrapper -->
     </div>
     <!-- /#wrapper -->
+
+    @if (IsSectionDefined("PartialSectionEnd"))
+    {
+        @RenderSection("PartialSectionEnd", required: false)
+    }
 </body>
 </html>
 

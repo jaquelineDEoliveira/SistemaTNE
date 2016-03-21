@@ -18,5 +18,15 @@ namespace SistemaTNE.Controllers
         {
             return View();
         }
+
+        public ActionResult BuscaAvancada()
+        {
+            return View();
+        }
+
+        public ActionResult Relatorio()
+        {
+            return View();
+        }
     }
 }

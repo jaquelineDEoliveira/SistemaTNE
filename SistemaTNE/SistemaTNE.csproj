@@ -332,6 +332,8 @@
     <Content Include="Views\Administrador\NovoUsuario.cshtml" />
     <Content Include="Views\Administrador\ImportarDados.cshtml" />
     <Content Include="Views\Shared\DropTable.cshtml" />
+    <Content Include="Views\Gestor\BuscaAvancada.cshtml" />
+    <Content Include="Views\Gestor\Relatorio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
